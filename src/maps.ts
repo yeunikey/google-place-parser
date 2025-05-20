@@ -1,7 +1,7 @@
 import { language, pointType } from "./runner";
 
 import { ApiRequest } from "./types";
-import { sleep } from "./utils/steam";
+import { sleep } from "./utils/stream";
 import xior from "xior";
 
 const endpoint = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
