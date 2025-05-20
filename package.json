@@ -1,0 +1,20 @@
+{
+  "name": "places",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node ./src/runner.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.7.1",
+  "dependencies": {
+    "@types/node": "^22.15.19",
+    "csv-writer": "^1.6.0",
+    "fs": "0.0.1-security",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "xior": "^0.7.8"
+  }
+}
